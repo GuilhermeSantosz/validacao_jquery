@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    display: block;
+    text-align: center;
+    margin-top: 300px;
+    position: relative;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Bungee', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container form li {
+    margin: 8px;
+    padding: 8px;
+    list-style: none;
+}
+
+form button {
+    width: 80px;
+    height: 25px;
+    color: red;
+    cursor: pointer;
+}
